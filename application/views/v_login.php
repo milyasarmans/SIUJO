@@ -20,7 +20,7 @@
                 <div class="info-holder">
                     <h3>Selamat datang di Sistem Ujian Online SIUJO.</h3>
                     <p>Silahkan masuk dengan menggunakan username dan password yang telah diberikan.</p>
-                    <img src="images/graphic.svg" alt="">
+                    <img src="<?php echo base_url() ?>assets/bower_components/login/images/graphic.svg" alt="">
                 </div>
             </div>
             <div class="form-holder">
