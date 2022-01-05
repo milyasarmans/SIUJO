@@ -36,7 +36,7 @@ $this->load->view('admin/sidebar');
                         <div class="form-group">
                             <label class="col-sm-2 control-label"></label>
                             <div class="col-sm-10">
-                                <a href="<?= base_url('soal'); ?>" class="btn btn-default btn-flat"><span class="fa fa-refresh"></span> Refresh</a>
+                                <a href="<?= base_url('soal_ujian'); ?>" class="btn btn-default btn-flat"><span class="fa fa-refresh"></span> Refresh</a>
                                 <button type="submit" class="btn btn-primary btn-flat" title="Filter Data Soal Ujian"><span class="fa fa-filter"></span> Filter</button>
                             </div>
                         </div>

@@ -43,7 +43,7 @@ $this->load->view('admin/sidebar');
                        <div class="form-group">
                             <label class="col-sm-2 control-label">Tulis Soal Ujian</label>
                             <div class="col-sm-10">
-                                <textarea name="soal" class="soal" required><?= $s->pertanyaan;?></textarea>
+                                <textarea name="soal" style="width: 100%; height:100px" /*class="soal"*/ required><?= $s->pertanyaan;?></textarea>
                             </div>
                         </div>
                         <div class="form-group">

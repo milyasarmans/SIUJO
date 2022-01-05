@@ -46,7 +46,7 @@ class Soal extends CI_Controller
 		} else {
 			$this->m_data->insert_data($data, 'tb_soal_ujian');
 			$this->session->set_flashdata('message', '<div class="alert alert-success alert-message alert-dismissible"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button><h4><i class="icon fa fa-check"></i> Selamat, Soal berhasil dibuat!</h4>untuk melihat soal tersebut bisa anda lihat di menu <b>Daftar Soal ujian</b>.</div>');
-			redirect(base_url('soal'));
+			redirect(base_url('soal_ujian'));
 		}	
 	}
 }
