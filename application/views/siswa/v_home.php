@@ -15,14 +15,13 @@ $this->load->view('siswa/sidebar');
 <!-- Main content -->
 <section class="content">
 
-    <div class="callout callout-info">
-        <h4>Selamat Datang, <?php echo $this->session->userdata('nama');?> </h4>
-        
-    </div>
+<div class="callout">
+    <h3><b>Selamat Datang, <?php echo $this->session->userdata('nama');?></b> </h3>        
+</div>
 
-    <div class="box box-success box-solid">
-        <div class="box-header with-border">
-            <h3 class="box-title">Petunjuk Penggunaan Ujian Online</h3>
+<div class="box box-solid">
+<div style="background: #064E89;" class="box-header with-border">
+            <h3 style="color: #ffff;" class="box-title">Petunjuk</h3>
         </div><!-- /.box-header -->
         <div class="box-body">
             <dl>

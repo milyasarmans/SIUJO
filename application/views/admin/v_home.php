@@ -15,21 +15,29 @@ $this->load->view('admin/sidebar');
 <!-- Main content -->
 <section class="content">
 
-    <div class="callout callout-danger">
-        <h4>Selamat Datang, <?php echo $this->session->userdata('nama');?> </h4>
-        
+    <div class="callout">
+        <h3><b>Selamat Datang, <?php echo $this->session->userdata('nama');?></b> </h3>        
     </div>
 
-    <div class="box box-success box-solid">
-        <div class="box-header with-border">
-            <h3 class="box-title">Petunjuk Penggunaan</h3>
-        </div><!-- /.box-header -->
+<div class="box box-solid">
+    <div style="background: #064E89;" class="box-header with-border">
+        <h3  style="color: #ffff;" class="box-title">Petunjuk Penggunaan</h3>
+    </div><!-- /.box-header -->
+    <div class="box-body">
+        <dl>
 
-        <div class="box-body">
-            <div style="text-align: center;">
-            <h3>GANTI HALAMAN INI PADA FILE v_home.php, v_home_guru.php, dan v_home_siswa.php</h3>
-            </div>
-    </div>
+            <dd>
+                <ol>
+                    <li><b>Kelola Soal Ujian</b></li>
+                    di TAB Kelola Soal Ujian, anda dapat melihat daftar soal ujian, dengan memfilter mata pelajaran apa yang ingin ada lihat. dan anda bisa menambah, edit, dan hapus mata pelajaran dan menambah data pelaran sesuai mata pelajaran anda 
+                    <li><b>Ganti Password</b></li>
+                    di TAB Ganti Password, anda dapat mengganti password sesuai keinginan anda setelah anda mendapatkan password default dari pihak administrator. ketika anda lupa password, anda dapat menghubungi pihak administrator agar mendapatkan password terbaru.
+                </ol>
+            </dd>
+            
+        </dl>
+    </div><!-- /.box-body -->
+</div>
 
 
 

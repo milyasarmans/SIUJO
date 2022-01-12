@@ -5,7 +5,7 @@
 	<div class="pull-right hidden-xs">
 		
 	</div>
-	<strong>&copy;2021 <a href="https://mycoding.net">MC Project</a></strong> All rights reserved.
+	<strong>&copy;2022 <a>Developer</a></strong> All rights reserved.
 </footer>
 
 </div>

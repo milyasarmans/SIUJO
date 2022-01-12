@@ -70,7 +70,7 @@ if(isset($_SESSION["waktu_start"])){
                                     <tr>
                                         <td width="1%"><?php echo $no; ?>.</td>
                                         <td><?php echo $s->pertanyaan; ?>
-                                            <input type='hidden' name='soal[]' value='<?php echo $s->id_soal_ujian; ?>' />
+                                            <input type='hidden' name='soal[]' value='<?php echo $s->id_soal_ujian; ?>' /><br>
                                             <input type="radio" name="jawaban[<?php echo $s->id_soal_ujian; ?>]" value="A" required /> <?php echo $s->a; ?><br>
                                             <input type="radio" name="jawaban[<?php echo $s->id_soal_ujian; ?>]" value="B" required /> <?php echo $s->b; ?><br>
                                             <input type="radio" name="jawaban[<?php echo $s->id_soal_ujian; ?>]" value="C" required /> <?php echo $s->c; ?><br>
