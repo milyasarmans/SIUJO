@@ -31,7 +31,7 @@ $this->load->view('admin/sidebar');
             </div>
     </div>
 
-    <iframe sandbox="allow-forms allow-scripts allow-pointer-lock allow-same-origin" id="iframe1" src="https://www.mycoding.net/" frameborder="1" width="100%" height="400px;" ></iframe>
+
 
 </section><!-- /.content -->
   

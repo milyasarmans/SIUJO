@@ -25,14 +25,14 @@ $this->load->view('admin/sidebar');
               <div class="box-body">
 
                 <div class="form-group">
-                  <label class="col-sm-2 control-label">NIK (Nomor Induk Kepegawaian)</label>
+                  <label class="col-sm-2 control-label">NIP</label>
                   <div class="col-sm-10">
                     <input type="number" class="form-control" name="nik" value="<?= $a->id_guru;?>" required>
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label class="col-sm-2 control-label">Nama Guru</label>
+                  <label class="col-sm-2 control-label">Nama</label>
                   <div class="col-sm-10">
                     <input type="text" class="form-control" name="nama" value="<?= $a->nama_guru;?>" required>
                   </div>

@@ -29,8 +29,8 @@ $this->load->view('admin/sidebar');
             <thead>
               <tr>
                 <th width="1%">No</th>
-                <th>NIK</th>
-                <th>Nama Guru</th>
+                <th>NIP</th>
+                <th>Nama</th>
                 <th>Username</th>
                 <th width="12%"></th>
               </tr>

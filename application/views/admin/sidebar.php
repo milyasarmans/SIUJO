@@ -43,11 +43,6 @@
             <li <?= $this->uri->segment(1) == 'hasil_ujian' ? 'class="active"' : '' ?>>
               <a href="<?php echo base_url('hasil_ujian'); ?>"><i class="fa fa-circle-o"></i> Hasil Ujian</a>
             </li>
-            <li <?= $this->uri->segment(1) == 'utilitas' ? 'class="active"' : '' ?>>
-              <a href="<?php echo base_url('utilitas'); ?>"><i class="fa fa-gears"></i>
-                <span>Utilities</span>
-              </a>
-            </li>
              
 
         

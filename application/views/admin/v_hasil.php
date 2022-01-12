@@ -51,15 +51,6 @@ $this->load->view('admin/sidebar');
 
             <!-- Default box -->
             <div class="box box-success" style="overflow-x: scroll;">
-                <div class="box-header" >
-                    <?php if (isset($_GET['id'])) {
-                        $id = $_GET['id']; 
-                    ?>
-                    <a href="<?=base_url().'hasil_ujian/print_all?id='.$id ?>" class="btn btn-danger btn-flat" target="_blank"><i class="fa fa-file-pdf-o"></i> Cetak Sesuai Filter</a>
-                    <?php } ?>
-
-                    <a href="<?=base_url('hasil_ujian/print_all')?>" class="btn btn-primary btn-flat pull-right" target="_blank"><i class="fa fa-print"></i> Cetak Semua Hasil Ujian</a>
-                </div>
               <div class="box-body">
                 <table id="data" class="table table-bordered table-striped">                    
                     <thead>
@@ -74,7 +65,6 @@ $this->load->view('admin/sidebar');
                             <th>Benar</th>                            
                             <th>Salah</th>                            
                             <th>Nilai</th>
-                            <th>Cetak</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -116,15 +106,6 @@ $this->load->view('admin/sidebar');
                                     }
                                     ?>
                                 </td>
-                                <td>
-                                    <?php
-                                    if($d->nilai == ''){
-                                        echo "<span class='btn btn-xs btn-default'>Belum Ujian</span>";
-                                    }else {
-                                        echo "<a href='".'hasil_ujian/cetak/'."$d->id_peserta' class='btn btn-xs btn-success' title='Cetak Hasil Ujian' target='_blank'><span class='fa fa-print'></span></a>";;
-                                    }
-                                    ?>
-                                </td> 
                             </tr>
                         <?php } ?>                  
                     </tbody> 
