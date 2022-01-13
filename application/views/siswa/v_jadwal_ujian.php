@@ -17,8 +17,8 @@ date_default_timezone_set('Asia/Jakarta');
           
 
             <!-- Default box -->
-            <div class="box box-success box-solid">
-                <div class="box-header with-border">
+            <div  class="box box-solid">
+                <div style="background: #064E89; color:#fff"  class="box-header with-border">
                     <h3 class="box-title"><?php print Date('d F Y'); ?> | <span id="time"> </h3>
                 </div>
                 <center><h4 class="box-title">Jadwal Ujian</h4></center>

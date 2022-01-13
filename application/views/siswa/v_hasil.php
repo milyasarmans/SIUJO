@@ -19,8 +19,8 @@ $this->load->view('siswa/sidebar');
             
 
             <!-- Default box -->
-            <div class="box box-success" style="overflow-x: scroll;">
-                <div class="box box-header" >
+            <div class="box" style="overflow-x: scroll;">
+                <div style="background: #064E89; color:#fff"  class="box box-header" >
                     <center><h3 class="box-title">Hasil Ujian</h3></center>
                 </div>
               <div class="box-body">
