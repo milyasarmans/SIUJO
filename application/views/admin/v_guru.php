@@ -85,8 +85,8 @@ $this->load->view('admin/sidebar');
             <input type="text" class="form-control" name="nama" placeholder="Masukkan Nama Guru" required="">
           </div>
           <div class="form-group">
-            <label class="font-weight-bold">NIK (Nomor Induk Kepegawaian)</label>
-            <input type="number" class="form-control" name="nik" placeholder="Masukkan NIK Guru" required="">
+            <label class="font-weight-bold">NIP</label>
+            <input type="number" class="form-control" name="nik" placeholder="Masukkan NIP Guru" required="">
           </div>
           <div class="form-group">
             <label class="font-weight-bold">Username</label>

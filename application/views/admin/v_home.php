@@ -31,9 +31,9 @@ $this->load->view('admin/sidebar');
                     <li><b>Data Guru</b></li>
                     di laman Data Guru, anda dapat melihat daftar guru, menambahkan, edit, dan hapus data guru 
                     <li><b>Data Siswa</b></li>
-                    di laman Data Siswa, anda dapat melihat daftar guru, menambahkan, edit, dan hapus data siswa 
+                    di laman Data Siswa, anda dapat melihat daftar siswa, menambahkan, edit, dan hapus data siswa 
                     <li><b>Kelola Soal Ujian</b></li>
-                    di laman  Kelola Soal Ujian, anda dapat melihat daftar soal ujian, dengan memfilter mata pelajaran apa yang ingin ada lihat. dan anda bisa menambah, edit, dan hapus mata pelajaran dan menambah data pelaran sesuai mata pelajaran anda 
+                    di laman  Kelola Soal Ujian, anda dapat melihat daftar soal ujian, dengan memfilter mata pelajaran apa yang ingin ada lihat. dan anda bisa menambah, edit, dan hapus mata pelajaran dan menambah data pelajaran sesuai mata pelajaran anda 
                     <li><b>Kelola Peserta Ujian</b></li>
                     di laman  Kelola Peserta Soal Ujian, anda dapat melihat daftar soal ujian, anda bisa menambah, edit, dan hapus peserta ujian dan menambah data jenis ujian anda 
                     <li><b>Hasil Ujian</b></li>
