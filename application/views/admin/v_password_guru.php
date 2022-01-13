@@ -20,7 +20,7 @@ $this->load->view('admin/sidebar');
         </div>
         <!-- /.box-header -->
         <!-- form start -->
-        <form action="<?= base_url('password'); ?>" method="post" class="form-horizontal">
+        <form action="<?= base_url('password/change'); ?>" method="post" class="form-horizontal">
           <div class="box-body">
             <div class="form-group">
               <label class="col-sm-2 control-label">Password Baru</label>
