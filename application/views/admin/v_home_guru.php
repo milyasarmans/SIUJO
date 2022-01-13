@@ -31,7 +31,7 @@ $this->load->view('admin/sidebar');
                     <ol>
                         
                     <li><b>Kelola Soal Ujian</b></li>
-                        di laman  Kelola Soal Ujian, anda dapat melihat daftar soal ujian, dengan memfilter mata pelajaran apa yang ingin ada lihat. dan anda bisa menambah, edit, dan hapus mata pelajaran dan menambah data pelaran sesuai mata pelajaran anda 
+                        di laman  Kelola Soal Ujian, anda dapat melihat daftar soal ujian, dengan memfilter mata pelajaran apa yang ingin ada lihat. 
                     <li><b>Ganti Password</b></li>
                     di laman  Ganti Password, anda dapat mengganti password sesuai keinginan anda setelah anda mendapatkan password default dari pihak administrator. ketika anda lupa password, anda dapat menghubungi pihak administrator agar mendapatkan password terbaru.
                     </ol>
