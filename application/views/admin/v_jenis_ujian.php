@@ -22,7 +22,7 @@ $this->load->view('admin/sidebar');
           <center><h4 class="box-title">Jenis Ujian</h4></center><p>
           <h3 class="box-title"></h3>
            <a href="<?=base_url('peserta')?>" class="btn btn-default btn-flat"><span class="fa fa-arrow-left"></span> Kembali</a>
-          <?php echo '<button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#modal-data" onclick="$(\'#modal-data-body\').load(\'' . base_url('jenis_ujian/create') . '\')"><span class="fa fa-plus"></span> Jenis Ujian</button>' ?>
+          <?php echo '<button  style="background: #064E89; color: #fff"  type="button" class="btn btn-flat" data-toggle="modal" data-target="#modal-data" onclick="$(\'#modal-data-body\').load(\'' . base_url('jenis_ujian/create') . '\')"><span class="fa fa-plus"></span> Jenis Ujian</button>' ?>
         </div>
         <!-- /.box-header -->
 
@@ -128,7 +128,7 @@ $this->load->view('admin/sidebar');
         <!-- /.box-body -->
         <div class="box-footer">
           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">TUTUP</button>
-          <button type="submit" class="btn btn-primary pull-right" title="Import Data siswa">Import</button>
+          <button style="background: #064E89; color: #fff"  type="submit" class="btn pull-right" title="Import Data siswa">Import</button>
         </div>
         <!-- /.box-footer -->
       </form>

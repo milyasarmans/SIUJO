@@ -34,7 +34,7 @@ $this->load->view('admin/sidebar');
                 <label class="col-sm-2 control-label"></label>
                 <div class="col-sm-10">
                   <a href="<?=base_url('kelas')?>" class="btn btn-default btn-flat"><span class="fa fa-arrow-left"></span> Batal</a>
-                  <button type="submit" class="btn btn-primary btn-flat" title="Simpan Data Pengawas"><span class="fa fa-save"></span> Simpan</button>
+                  <button style="background: #064E89; color: #fff"  type="submit" class="btnbtn-flat" title="Simpan Data Pengawas"><span class="fa fa-save"></span> Simpan</button>
                 </div>
               </div>
 

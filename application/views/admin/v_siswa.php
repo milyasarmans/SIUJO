@@ -22,9 +22,9 @@ $this->load->view('admin/sidebar');
         <div class="box-header">
           <center><h4 class="box-title">Data Siswa</h4></center><p>
           <h3 class="box-title"></h3>
-          <?php echo '<button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#modal-data" onclick="$(\'#modal-data-body\').load(\'' . base_url('siswa/create') . '\')"><span class="fa fa-plus"></span> Tambah</button>' ?>
+          <?php echo '<button  style="background: #064E89; color: #fff" type="button" class="btn btn-flat" data-toggle="modal" data-target="#modal-data" onclick="$(\'#modal-data-body\').load(\'' . base_url('siswa/create') . '\')"><span class="fa fa-plus"></span> Tambah</button>' ?>
 
-          <a href="<?php echo base_url('kelas'); ?>"><button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#" ><span ></span>Data Kelas</button></a>
+          <a href="<?php echo base_url('kelas'); ?>"><button style="background: #064E89; color: #fff"  type="button" class="btn btn-flat" data-toggle="modal" data-target="#" ><span ></span>Data Kelas</button></a>
 
           
         </div>

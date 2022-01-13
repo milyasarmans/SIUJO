@@ -37,7 +37,7 @@ $this->load->view('admin/sidebar');
                             <label class="col-sm-2 control-label"></label>
                             <div class="col-sm-10">
                                 <a href="<?= base_url('soal_ujian'); ?>" class="btn btn-default btn-flat"><span class="fa fa-refresh"></span> Refresh</a>
-                                <button type="submit" class="btn btn-primary btn-flat" title="Filter Data Soal Ujian"><span class="fa fa-filter"></span> Filter</button>
+                                <button style="background: #064E89; color: #fff"  type="submit" class="btn btn-flat" title="Filter Data Soal Ujian"><span class="fa fa-filter"></span> Filter</button>
                             </div>
                         </div>
                     </div>
@@ -55,9 +55,9 @@ $this->load->view('admin/sidebar');
             <div class="box-header">
                 <h3 class="box-title"></h3>
                 
-                <a href="<?= base_url('soal') ?>"><button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#modal-default"><span class="fa fa-plus"></span> Tambah</button></a>
+                <a href="<?= base_url('soal') ?>"><button style="background: #064E89; color: #fff"  type="button" class="btn btn-flat" data-toggle="modal" data-target="#modal-default"><span class="fa fa-plus"></span> Tambah</button></a>
 
-                <a href="<?php echo base_url('matapelajaran'); ?>"><button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#" ><span ></span>Data Mata Pelajaran</button></a>
+                <a href="<?php echo base_url('matapelajaran'); ?>"><button style="background: #064E89; color: #fff"  type="button" class="btn btn-flat" data-toggle="modal" data-target="#" ><span ></span>Data Mata Pelajaran</button></a>
             </div>
 
                     <table id="data" class="table table-bordered table-striped">

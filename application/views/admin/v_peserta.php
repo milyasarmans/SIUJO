@@ -22,8 +22,8 @@ $this->load->view('admin/sidebar');
         <div class="box-header">
           <center><h4 class="box-title">Daftar Peserta Ujian</h4></center><p>
           <h3 class="box-title"></h3>
-          <a href="<?php echo base_url('peserta_tambah'); ?>"><button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#peserta_tambah" ><span class="fa fa-plus"></span> Tambah </button></a>
-          <a href="<?php echo base_url('jenis_ujian'); ?>"><button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#" ><span ></span>Data Jenis Ujian</button></a>
+          <a href="<?php echo base_url('peserta_tambah'); ?>"><button style="background: #064E89; color: #fff"  type="button" class="btn btn-flat" data-toggle="modal" data-target="#peserta_tambah" ><span class="fa fa-plus"></span> Tambah </button></a>
+          <a href="<?php echo base_url('jenis_ujian'); ?>"><button style="background: #064E89; color: #fff"  type="button" class="btn btn-flat" data-toggle="modal" data-target="#" ><span ></span>Data Jenis Ujian</button></a>
 
 
 

@@ -50,7 +50,7 @@ $this->load->view('admin/sidebar');
                       <label for="inputEmail3" class="col-sm-2 control-label"></label>
 
                       <div class="col-sm-10">
-                        <button type="submit" class="btn btn-primary btn-flat" title="Pilih Kelas">Pilih Kelas</button>
+                        <button style="background: #064E89; color: #fff"  type="submit" class="btn btn-flat" title="Pilih Kelas">Pilih Kelas</button>
                       </div>
                     </div>
                    </div>
@@ -162,7 +162,7 @@ $this->load->view('admin/sidebar');
                     
                   <div class="box-footer">
                      <a href="<?=base_url('peserta')?>" class="btn btn-default btn-flat"><span class="fa fa-arrow-left"></span> Kembali</a>
-                  <button type="submit" class="btn btn-primary btn-flat" ><span class="fa fa-save"></span> Simpan</button>
+                  <button style="background: #064E89; color: #fff"  type="submit" class="btn btn-flat" ><span class="fa fa-save"></span> Simpan</button>
                   </div>
                   <!-- /.box-footer -->
                 </form>

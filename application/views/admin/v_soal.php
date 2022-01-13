@@ -47,7 +47,7 @@ $this->load->view('admin/sidebar');
                         </div>
                         <div class="modal-footer">
                           <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Tutup</button>
-                          <button type="submit" class="btn btn-primary">Simpan</button>
+                          <button style="background: #064E89; color: #fff"  type="submit" class="btn">Simpan</button>
                         </div>
                       </form>
                       <!-- /.tutup form dengan modal  -->
@@ -135,7 +135,7 @@ $this->load->view('admin/sidebar');
                                 <label class="col-sm-2 control-label"></label>
                                 <div class="col-sm-10">
                      <a href="<?=base_url('soal_ujian')?>" class="btn btn-default btn-flat"><span class="fa fa-arrow-left"></span> Kembali</a>
-                                    <button type="submit" class="btn btn-primary btn-flat" title="Tambah Data Soal Ujian"><span class="fa fa-save"></span> Simpan</button>
+                                    <button style="background: #064E89; color: #fff"  type="submit" class="btn btn-flat" title="Tambah Data Soal Ujian"><span class="fa fa-save"></span> Simpan</button>
                                 </div>
                             </div>
                         </div>

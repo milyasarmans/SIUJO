@@ -39,7 +39,7 @@ $this->load->view('siswa/sidebar');
             <div class="form-group">
               <label class="col-sm-2 control-label"></label>
               <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary btn-flat" title="Simpan Password Baru"> Simpan</button>
+                <button style="background: #064E89; color: #fff"  type="submit" class="btn btn-flat" title="Simpan Password Baru"> Simpan</button>
               </div>
             </div>
           </div>

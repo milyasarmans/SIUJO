@@ -10,7 +10,7 @@
   </div>
   <!-- /.box-body -->
   <div class="box-footer">
-    <button type="submit" class="btn btn-primary btn-flat pull-right" title="Simpan Data">Simpan</button>
+    <button  style="background: #064E89; color: #fff"  type="submit" class="btn btn-flat pull-right" title="Simpan Data">Simpan</button>
   </div> 
   <!-- /.box-footer -->
 </form>

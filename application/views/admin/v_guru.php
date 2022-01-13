@@ -20,7 +20,7 @@ $this->load->view('admin/sidebar');
         <div class="box-header">
           <center><h4 class="box-title">Data Guru</h4></center><p>
           <h3 class="box-title"></h3>
-          <button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#modal-default"> <span class="fa fa-plus"></span> Tambah</button>
+          <button  style="background: #064E89; color: #fff" type="button" class="btn btn-flat" data-toggle="modal" data-target="#modal-default"> <span class="fa fa-plus"></span> Tambah</button>
         </div>
         <!-- /.box-header -->
 

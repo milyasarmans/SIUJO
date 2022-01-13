@@ -98,7 +98,7 @@ $this->load->view('admin/sidebar');
                 <label class="col-sm-2 control-label"></label>
                 <div class="col-sm-10">
                   <button type="button" class="btn btn-default btn-flat" onclick="return history.go(-1)" title="Kembali ke halaman sebelumnya"><span class="fa fa-arrow-left"></span> Kembali</button>
-                  <button type="submit" class="btn btn-primary btn-flat" title="Update peserta"><span class="fa fa-save"></span> Simpan</button>
+                  <button style="background: #064E89; color: #fff"  type="submit" class="btn btn-flat" title="Update peserta"><span class="fa fa-save"></span> Simpan</button>
                 </div>
               </div>
             </div>

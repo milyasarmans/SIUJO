@@ -20,7 +20,7 @@ $this->load->view('admin/sidebar');
             <div class="box-header">
                 <center><h3 class="box-title">Data Mata pelajaran</h3></center><p>
                   <a href="<?=base_url('soal_ujian')?>" class="btn btn-default btn-flat"><span class="fa fa-arrow-left"></span> Kembali</a>
-                <button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#modal-default"><span class="fa fa-plus"></span> Tambah</button>
+                <button style="background: #064E89; color: #fff"  type="button" class="btn btn-flat" data-toggle="modal" data-target="#modal-default"><span class="fa fa-plus"></span> Tambah</button>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -88,7 +88,7 @@ $this->load->view('admin/sidebar');
         </div>
         <div class="modal-footer">
          
-          <button type="submit" class="btn btn-primary">Simpan</button>
+          <button  style="background: #064E89; color: #fff"  type="submit" class="btn">Simpan</button>
         </div>
       </form>
       <!-- /.tutup form dengan modal  -->
