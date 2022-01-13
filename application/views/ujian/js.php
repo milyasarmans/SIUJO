@@ -5,7 +5,10 @@
 	<div class="pull-right hidden-xs">
 		
 	</div>
+	
+	<div class="container">
 	<strong>&copy;2022 <a>Developer</a></strong> All rights reserved.
+	</div>
 </footer>
 
 </div>

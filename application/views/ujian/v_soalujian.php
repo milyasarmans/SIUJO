@@ -37,7 +37,7 @@ if(isset($_SESSION["waktu_start"])){
 <!-- Main content -->
 <section class="content">
   <div class="row">
-    <div class="col-md-3">
+    <!-- <div class="col-md-3">
         <div class="box box-success">
             <div class="box-header text-center">
               <h4 class="box-title">Waktu Anda</h4>
@@ -49,13 +49,10 @@ if(isset($_SESSION["waktu_start"])){
 
             </div>
         </div>
-    </div>
-    <div class="col-md-9">
-        <div class="box box-success box-solid">
-            <div class="box-header with-border">
-               <center> <h3 class="box-title">Soal Ujian</h3> </center>
-            </div><!-- /.box-header -->
-            <div class="box-body" style="overflow-y: scroll;height: 525px;">
+    </div> -->
+    <div style="margin-top:90px" class="col-md-12">
+        <div class="box box-solid">
+            <div class="box-body" style="overflow-y: scroll;height: 380px;">
                 <form id="formSoal" role="form" action="<?php echo base_url(); ?>ruang_ujian/jawab_aksi" method="post" onsubmit="return confirm('Anda Yakin ?')">
 
                     <input type="hidden" name="id_peserta" value="<?php echo $id['id_peserta']; ?>">
@@ -83,12 +80,12 @@ if(isset($_SESSION["waktu_start"])){
 
                         </div>
                     <?php } ?>
-                    <button type="submit" class="btn btn-primary btn-flat pull-right">Simpan</button>
-                </form>
                 <div class="box-footer">
 
                 </div>
             </div><!-- /.box-body -->
+                    <button style="margin-top:10px; background: #064E89; color: #fff"  type="submit" class="btn btn-flat pull-right">Selesai</button>
+                    </form>
         </div>
     </div>    
 </div>

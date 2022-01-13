@@ -27,7 +27,7 @@
                 <div class="form-content">
                     <div class="form-items">
                         <div class="page-links">
-                            <a href="index.html" class="active">SISTEM UJIAN ONLINE</a>
+                            <a class="active">SISTEM UJIAN ONLINE</a>
                         </div>
                         <form action="<?php echo base_url('auth') ?>" method="post">
                             <!-- <input class="form-control" type="text" name="username" placeholder="Username" required>

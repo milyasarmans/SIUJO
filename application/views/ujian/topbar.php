@@ -1,29 +1,39 @@
 </head>
-<body class="hold-transition skin-green layout-top-nav fixed" >
+<body class="hold-transition layout-top-nav fixed" >
 <div class="wrapper">
 
   <header class="main-header">
-    <nav class="navbar navbar-static-top">
+    <nav style="padding:10px 0px; background: #064E89; color: #fff"  class="navbar navbar-static-top">
       <div class="container">
-        <div class="navbar-header">
-          <a href="#" class="navbar-brand"><b>Ujian</b> Daring</a>
-        </div>
+        <!-- <div class="navbar-header">
+          <a href="#" class="navbar-brand"><b>SIUJO</b></a>
+          
+        </div> -->
         <!-- /.navbar-collapse -->
         <!-- Navbar Right Menu -->
-        <div class="navbar-custom-menu">
-          <ul class="nav navbar-nav">
+        <!-- <div  class="navbar-custom-menu"> -->
+          <!-- <ul class="nav navbar-nav"> -->
             <!-- User Account Menu -->
-            <li class="dropdown user user-menu">
+            <!-- <li class="dropdown user user-menu"> -->
               <!-- Menu Toggle Button -->
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <!-- <a href="#" class="dropdown-toggle" data-toggle="dropdown"> -->
                 <!-- The user image in the navbar-->
-                <img src="<?=base_url('image/avatar.png')?>" class="user-image" alt="User Image">
+                <!-- <img src="<?=base_url('image/avatar.png')?>" class="user-image" alt="User Image"> -->
                 <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                <span class="hidden-xs">Halo, <?php echo $this->session->userdata('nama');?></span>
+                <!-- <span style="color: #fff" class="hidden-xs"><?php echo $this->session->userdata('nama');?></span>
               </a>              
             </li>
           </ul>
-        </div>
+        </div> -->
+
+
+        <divs style="background: #064E89; color: #fff; text-size:80px;"  class=" with-border">
+               <center> <h1 class="box-title"><b>SELAMAT MENGERJAKAN</b></h1> </center>
+               
+            <div  class="box-body" id="timer_place">
+                <span style="border:none" id="counter" align="center"></span>
+            </div>
+            </divs><!-- /.box-header -->
         <!-- /.navbar-custom-menu -->
       </div>
       <!-- /.container-fluid -->
