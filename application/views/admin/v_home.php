@@ -28,10 +28,18 @@ $this->load->view('admin/sidebar');
 
             <dd>
                 <ol>
+                    <li><b>Data Guru</b></li>
+                    di laman Data Guru, anda dapat melihat daftar guru, menambahkan, edit, dan hapus data guru 
+                    <li><b>Data Siswa</b></li>
+                    di laman Data Siswa, anda dapat melihat daftar guru, menambahkan, edit, dan hapus data siswa 
                     <li><b>Kelola Soal Ujian</b></li>
-                    di TAB Kelola Soal Ujian, anda dapat melihat daftar soal ujian, dengan memfilter mata pelajaran apa yang ingin ada lihat. dan anda bisa menambah, edit, dan hapus mata pelajaran dan menambah data pelaran sesuai mata pelajaran anda 
+                    di laman  Kelola Soal Ujian, anda dapat melihat daftar soal ujian, dengan memfilter mata pelajaran apa yang ingin ada lihat. dan anda bisa menambah, edit, dan hapus mata pelajaran dan menambah data pelaran sesuai mata pelajaran anda 
+                    <li><b>Kelola Peserta Ujian</b></li>
+                    di laman  Kelola Peserta Soal Ujian, anda dapat melihat daftar soal ujian, anda bisa menambah, edit, dan hapus peserta ujian dan menambah data jenis ujian anda 
+                    <li><b>Hasil Ujian</b></li>
+                    di laman  Hasil Ujian, anda dapat melihat daftar hasil ujian,  dengan memfilter mata pelajaran apa yang ingin ada lihat.
                     <li><b>Ganti Password</b></li>
-                    di TAB Ganti Password, anda dapat mengganti password sesuai keinginan anda setelah anda mendapatkan password default dari pihak administrator. ketika anda lupa password, anda dapat menghubungi pihak administrator agar mendapatkan password terbaru.
+                    di laman Ganti Password, anda dapat mengganti password sesuai keinginan anda.
                 </ol>
             </dd>
             
