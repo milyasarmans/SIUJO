@@ -52,7 +52,7 @@ if(isset($_SESSION["waktu_start"])){
     </div> -->
     <div style="margin-top:90px" class="col-md-12">
         <div class="box box-solid">
-            <div class="box-body" style="overflow-y: scroll;height: 380px;">
+            <div class="box-body" style="overflow-y: scroll;height: 450px;">
                 <form id="formSoal" role="form" action="<?php echo base_url(); ?>ruang_ujian/jawab_aksi" method="post" onsubmit="return confirm('Anda Yakin ?')">
 
                     <input type="hidden" name="id_peserta" value="<?php echo $id['id_peserta']; ?>">
